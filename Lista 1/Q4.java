@@ -1,20 +1,20 @@
-// dando erro
-
 import java.util.Scanner;
 
-public class Main {
+public class Q4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in);
-        double A = scanner.nextDouble();
-        double B = scanner.nextDouble();
-        double C = scanner.nextDouble();
-        double delta = (B*B) - (4 * A * C);
-        double bhaskara = (-B + Math.sqrt(delta)) / (2 * A);
-        double mbhaskara = (-B - Math.sqrt(delta)) / (2 * A);
+        double a = scanner.nextDouble();
+        double b = scanner.nextDouble();
+        double c = scanner.nextDouble();
+
+        double delta = (b*b) - (4 * a * c);
         
-        if (A == 0 || delta < 0){
+        if (a == 0 || delta < 0){
             System.out.println("Impossivel calcular");
         } else {
+            double bhaskara = (-b + Math.sqrt(delta)) / (2 * a);
+            double mbhaskara = (-b - Math.sqrt(delta)) / (2 * b);
+
             System.out.println("R1 = %.5f\n" + bhaskara);
             System.out.println("R2 = %.5f\n" + mbhaskara);
         }
