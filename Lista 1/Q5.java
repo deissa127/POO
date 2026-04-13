@@ -1,16 +1,20 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+ 
+    public static void main(String[] args) throws IOException {
+
         Scanner scanner = new Scanner (System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        double delta = (B*B) - 4 * A * C;
 
-        if (a == 0 && b == 1){
+        if (a == 0){
             System.out.println("C");
-        } else if (a ==  && b == 2){
-            System.out.println("C");
+        } else if (a == 1 && b == 0){
+            System.out.println("B");
+        } else {
+            System.out.println("A");
         }
         scanner.close();
     }
