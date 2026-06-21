@@ -36,5 +36,6 @@ public class Main {
                 System.out.printf("Circunferência do circulo = %.2f%n", valorc.c_circunf());
                 break;
         }
+        scanner.close;
     }
 }
