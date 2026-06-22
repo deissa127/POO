@@ -1,3 +1,10 @@
+/*
+1. Um Círculo
+A classe deve ter um atributo raio para armazenar a dimensão da figura 
+e métodos para calcular sua área e sua circunferência.
+Escrever um programa para testar a classe.
+*/
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -36,6 +43,6 @@ public class Main {
                 System.out.printf("Circunferência do circulo = %.2f%n", valorc.c_circunf());
                 break;
         }
-        scanner.close;
+        scanner.close();
     }
 }
