@@ -1,3 +1,31 @@
+/*
+Implemente um programa para gerenciar uma playlist de músicas usando uma List.
+Crie uma classe Musica com os atributos:
+titulo
+artista
+duracao (em segundos)
+O programa deve:
+Adicionar músicas à playlist.
+Exibir todas as músicas na ordem em que foram adicionadas.
+Exibir a duração total da playlist.
+Permitir remover uma música pelo título.
+Exibir a música mais longa da playlist.
+Requisitos
+Utilize ArrayList.
+Implemente encapsulamento corretamente.
+Sobrescreva o método toString() na classe Musica.
+Exemplo de saída esperada
+Playlist:
+1. Numb - Linkin Park (185s)
+2. Yellow - Coldplay (270s)
+3. Halo - Beyoncé (260s)
+
+Duração total: 715 segundos
+
+Música mais longa:
+Yellow - Coldplay (270s)
+*/
+
 import java.util.Scanner;
 import java.util.ArrayList;
 

@@ -1,3 +1,12 @@
+/*
+Calcular a área e a diagonal de retângulos e quadrados, utilizando as classes listadas no 
+diagrama.
+A classe Retângulo define atributos para armazenar a base e altura de um retângulo e calcula
+ sua área e diagonal. A classe Quadrado especializa o retângulo em um quadrado, atribuindo 
+ o mesmo valor para base e altura. Ambas as classes devem ter construtor para receber os 
+ valores iniciais e método ToString para retornar os dados armazenados.
+*/
+
 import java.util.Scanner;
 import java.util.Locale;
 

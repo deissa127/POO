@@ -1,3 +1,8 @@
+/*
+Dada uma classe Produto com campos nome e preco, crie uma lista de produtos e ordene pelo preço crescente.
+
+*/
+
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.ArrayList;

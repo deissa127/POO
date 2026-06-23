@@ -1,3 +1,29 @@
+/*
+Implemente um sistema de controle de participantes de um evento utilizando Set.
+Crie uma classe Participante com os atributos:
+cpf
+nome
+email
+O sistema deve:
+Adicionar participantes.
+Impedir participantes duplicados.
+Exibir todos os participantes cadastrados.
+Verificar se um participante já está inscrito usando o CPF.
+Exibir a quantidade total de participantes únicos.
+Requisitos
+Utilize HashSet.
+Considere que dois participantes são iguais quando possuem o mesmo CPF.
+Sobrescreva os métodos:
+equals()
+hashCode()
+toString()
+Sobrescrever equals() e hashCode() é fundamental ao utilizar objetos em um HashSet porque essa 
+estrutura usa esses dois métodos para determinar:
+Se dois objetos são considerados iguais
+Em qual posição interna (bucket) o objeto será armazenado
+
+*/
+
 import java.util.Scanner;
 import java.util.Locale;
 import java.util.Set;

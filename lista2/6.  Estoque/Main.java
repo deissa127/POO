@@ -1,3 +1,30 @@
+/*
+Implemente um sistema simples de estoque utilizando Map.
+Crie uma classe Produto com os atributos:
+codigo
+nome
+preco
+Utilize um Map<Integer, Produto> para armazenar os produtos, onde a chave será o código do produto.
+O sistema deve:
+Adicionar produtos ao estoque.
+Buscar um produto pelo código.
+Remover um produto pelo código.
+Exibir todos os produtos cadastrados.
+Informar se um determinado código existe no estoque.
+Exibir o produto mais caro cadastrado.
+Requisitos
+Utilize HashMap.
+Sobrescreva o método toString() na classe Produto.
+Exemplo de saída esperada
+Produtos cadastrados:
+101 -> Mouse Gamer - R$ 120.00
+102 -> Teclado Mecânico - R$ 350.00
+103 -> Monitor - R$ 899.00
+
+Produto mais caro:
+Monitor - R$ 899.00
+*/
+
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.HashMap;
