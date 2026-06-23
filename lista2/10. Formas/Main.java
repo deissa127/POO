@@ -49,9 +49,9 @@ abstract class Forma implements Comparable<Forma>{
         return Double.compare(this.area(), outra.area());
     }
     @Override
-public String toString(){
-    return String.format("Forma[area: %.2f, perimetro: %.2f]", area(), perimetro());
-}
+    public String toString(){
+        return String.format("Forma[area: %.2f, perimetro: %.2f]", area(), perimetro());
+    }
 }
 
 class Circulo extends Forma{
